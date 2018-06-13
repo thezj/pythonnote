@@ -18,10 +18,12 @@ while radius != 0:
     area = pi*radius*radius
     print('perimeter={},area={}'.format(perimeter, area))
 
-'''
+
 
 year = 1
 while year != 0:
     year = int(input('year='))
     is_leap = (year % 4 == 0 and year % 100 != 0 or year % 400 == 0)
     print(is_leap)
+
+'''
